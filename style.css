@@ -1,0 +1,383 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* --============NAVBAR============-- */ li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.navbar:hover {
+    box-shadow: 3px 3px 20px red;
+}
+
+nav ul li a {
+    margin: 12px;
+    padding: 7px 11px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 30px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    color: white;
+    transition: all ease 0.2s;
+}
+
+.active {
+
+    background-color: red;
+    color: white;
+    box-shadow: 5px 5px 20px red;
+}
+
+/* -- ============MAIN TEXT============ -- */
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_content {
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 34%;
+    text-align: center;
+}
+
+.main_heading {
+    font-size: 1rem;
+}
+
+.main_heading2 {
+    font-size: 2.5rem;
+    margin-top: -10px;
+}
+
+.main_heading2 span {
+    color: red;
+}
+
+.main_para {
+    margin-top: -20px;
+}
+
+.btn {
+
+    background-color: red;
+    color: white;
+    padding: 9px 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 9px;
+    box-shadow: 3px 3px 15px red;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: black;
+    box-shadow: 5px 5px 20px gold;
+}
+
+/* -- ============About============ -- */
+
+#about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.about_container {
+    padding-top: 1px;
+}
+
+.about_left {
+    width: 50%;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.about_left img {
+    width: 60%;
+    margin-top: 60px;
+
+}
+
+.about_right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 40%;
+
+}
+
+.right_heading {
+    color: red;
+    font-size: 40px;
+}
+
+.about_para {
+    margin-top: -5px;
+
+    color: white;
+}
+
+.about_heading {
+    width: 100%;
+    height: 3rem;
+    font-size: 3rem;
+    font-weight: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 23px;
+    background-color: black;
+    color: white;
+}
+
+.about_btn {
+
+    background-color: red;
+    color: white;
+    padding: 9px 11px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 22px;
+    box-shadow: 3px 3px 15px red;
+    cursor: pointer;
+
+}
+
+.about_btn:hover {
+    background-color: gold;
+    color: white;
+    box-shadow: 5px 5px 20px gold;
+}
+
+/* -- ============ Feature ============ -- */
+
+#service {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    padding-top: 108px;
+    position: relative;
+    box-sizing: border-box;
+
+
+}
+
+.services_heading {
+    width: 100%;
+    height: 3rem;
+    font-size: 3rem;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 161px;
+}
+
+.service_container {
+    display: flex;
+    margin-top: -100px;
+
+}
+
+.service_card {
+    width: 25%;
+    text-align: center;
+    padding-top: 60px;
+    transition: all ease 0,2s;
+}
+.service_card:hover{
+    box-shadow: 3px 3px 15px red;
+}
+
+.card_heading {
+    font-weight: 50px;
+}
+
+.image {
+    height: 240px;
+}
+
+.content {
+    margin-top: -50px;
+}
+
+/* -- ============OFFERS ============ -- */
+
+#offer {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background-image: url(images/offer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_content {
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 37%;
+    text-align: center;
+}
+
+.main_heading {
+    font-size: 1rem;
+}
+
+.main_heading2 {
+    font-size: 2.5rem;
+    margin-top: -10px;
+}
+
+.main_heading2 span {
+    color: #ff1414;
+}
+
+.main_para {
+    margin-top: -20px;
+}
+
+.btn {
+
+    background-color: red;
+    color: white;
+    padding: 9px 30px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 9px;
+    box-shadow: 3px 3px 15px red;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: black;
+    box-shadow: 5px 5px 20px gold;
+}
+
+/* -- ============CONTACT SECTION============ -- */
+#contact {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.contact_heading {
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: -5px;
+    padding-top: 80px;
+}
+
+.contact_form {
+    width: 30%;
+    height: 60%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1%;
+    left: 35%;
+}
+
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.884);
+    color: black;
+    border-radius: 8px;
+}
+
+.contact_form textarea {
+    height: 100px;
+}
+
+.contact_button {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: red;
+    box-shadow: 3px 3px 15px red;
+    cursor: pointer;
+}
+
+.caontact_button:hover {
+    background-color: gold;
+    color: black;
+    box-shadow: 5px 5px 20px gold;
+}
+
+/* -- ============Footer============ -- */
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
