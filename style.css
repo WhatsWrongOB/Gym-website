@@ -457,7 +457,7 @@ footer {
     }
 
     .hamburger {
-        display: inline-block;
+        display: block;
         margin-right: 25px;
     }
 
@@ -476,7 +476,7 @@ footer {
     }
 
     .menu.active {
-        display: inline-block;
+        display: block;
     }
 
     .about_left img {
